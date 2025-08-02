@@ -16,7 +16,7 @@ import project6Video from "../../assets/images/data-cleaning-excel.jpg";
 import project7video from "../../assets/videos/project8.mp4";
 import project8video from "../../assets/videos/maven.mp4";
 import project9video from "../../assets/videos/adventurebike.mp4";
-import project10video from "../../assets/videos/dealcart.mp4"; // Example for case study video
+import project10video from "../../assets/videos/dealcart.mp4";
 const projectsData = [
   {
     id: 1,
