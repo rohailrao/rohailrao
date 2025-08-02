@@ -7,24 +7,23 @@ import { projectsHeader } from "../../portfolio.js";
 import "./Projects.css";
 import ProjectsImg from "./ProjectsImg";
 
-// ✅ Correctly Import Videos
-// import project1Video from "../../assets/videos/excel2.mp4";
-// import project2Video from "../../assets/videos/coffeeshop.mp4";
-// import project3Video from "../../assets/videos/dataclean.mp4";
-import project4Video from "../../assets/videos/excel.gif";
-import project5Video from "../../assets/videos/sql.mp4";
+import project1Video from "../../assets/images/Branch-SKU-Level.png";
+import project2Video from "../../assets/images/project-quality-assurance-dashboard.png";
+import project3Video from "../../assets/images/covid-19.jpg";
+import project4Video from "../../assets/images/bikers-data-project.jpg";
+import project5Video from "../../assets/images/coffee-shop-sales.png";
+import project6Video from "../../assets/images/data-cleaning-excel.jpg";
 import project7video from "../../assets/videos/project8.mp4";
 import project8video from "../../assets/videos/maven.mp4";
 import project9video from "../../assets/videos/adventurebike.mp4";
 import project10video from "../../assets/videos/dealcart.mp4"; // Example for case study video
-
 const projectsData = [
   {
     id: 1,
     title: "Branch & SKU-Level Sales, Inventory & Order Insights",
     description:
-      "This SQL project includes 5 advanced queries for retail operations. It covers Karachi branch inventory valuation using latest TP, monthly GMV calculation by branch using MRP, POS-level inventory valuation with max MRP, daily receiving summary for selected branches, and detailed IB2C order reports. Together, they help track stock value, sales, receiving, and B2C performance.",
-    videoSrc: project5Video,
+      "This SQL project includes five advanced queries for retail operations. It covers Karachi branch inventory valuation using the latest TP, monthly GMV calculation by branch using MRP, POS-level inventory valuation with maximum MRP, daily receiving summaries for selected branches, and detailed IB2C order reports. Together, these help track stock value, sales, receiving, and B2C performance.",
+    videoSrc: project1Video,
     fileSrc: "/pdf/branch-sku-sales.pdf", // public folder path
     fileExtension: "pdf",
     button: {
@@ -37,8 +36,8 @@ const projectsData = [
     title:
       "QA & Sprint Insights Dashboard – Project Health and Testing Analysis",
     description:
-      "TThis SQL project features three advanced queries for project management and QA tracking. It calculates missed bug ratios for February 2024 sprints, analyzes project timelines using worklog data, and summarizes sprint completion rates. Together, these queries provide a clear dashboard for monitoring QA performance, project durations, and sprint progress.",
-    videoSrc: project5Video,
+      "This SQL project features three advanced queries for project management and QA tracking. It calculates missed bug ratios for February 2024 sprints, analyzes project timelines using worklog data, and summarizes sprint completion rates. Together, these queries provide a clear dashboard for monitoring QA performance, project durations, and sprint progress.",
+    videoSrc: project2Video,
     fileSrc: "/pdf/qa-sprint-insights.pdf",
     fileExtension: "pdf",
     button: {
@@ -50,8 +49,8 @@ const projectsData = [
     id: 3,
     title: "COVID-19 Data Analysis",
     description:
-      "This SQL project analyzes COVID-19 data through 10 queries: extracting base metrics, calculating death rates in Pakistan, tracking infection percentages, identifying highest-impacted regions, aggregating continental statistics, monitoring global daily trends, and comparing vaccination progress to population size using CTEs, temp tables, and views. It delivers comprehensive insights on COVID-19's global impact across multiple dimensions.",
-    videoSrc: project5Video,
+      "This SQL project analyzes COVID-19 data through ten queries: extracting base metrics, calculating death rates in Pakistan, tracking infection percentages, identifying the highest-impacted regions, aggregating continental statistics, monitoring global daily trends, and comparing vaccination progress to population size using CTEs, temp tables, and views. It delivers comprehensive insights on COVID-19's global impact across multiple dimensions.",
+    videoSrc: project3Video,
     fileSrc: "/pdf/covid19-analysis.pdf",
     fileExtension: "pdf",
     button: {
@@ -76,8 +75,8 @@ const projectsData = [
     id: 5,
     title: "Coffee Shop Sales Project: Data Analysis & Insights",
     description:
-      "The Coffee Shop Sales analysis reveals that coffee is the top-selling category, followed by tea and drinking chocolate. Peak sales occur from 7 AM to 10 AM, driven by caffeine demand, with Lower Manhattan as the highest-performing location. Seasonal fluctuations indicate opportunities for targeted promotions during slower months. These insights can inform inventory planning and marketing strategies to improve overall efficiency and profitability",
-    videoSrc: project4Video,
+      "The Coffee Shop Sales analysis reveals that coffee is the top-selling category, followed by tea and drinking chocolate. Peak sales occur from 7 AM to 10 AM, driven by caffeine demand, with Lower Manhattan as the highest-performing location. Seasonal fluctuations indicate opportunities for targeted promotions during slower months. These insights can inform inventory planning and marketing strategies to improve overall efficiency and profitability.",
+    videoSrc: project5Video,
     fileSrc: "/pdf/coffee-shop-analysis.xlsx",
     fileExtension: "xlsx",
     button: {
@@ -90,7 +89,7 @@ const projectsData = [
     title: "Data Cleaning and Wrangling in Excel",
     description:
       "This Excel file demonstrates techniques for cleaning and organizing raw data to make it analysis-ready. It covers tasks such as removing duplicates, correcting inconsistencies, handling missing entries, and restructuring data into a more usable format. These steps help ensure the data is accurate, consistent, and well-prepared for further analysis or reporting.",
-    videoSrc: project4Video,
+    videoSrc: project6Video,
     fileSrc: "/pdf/data-cleaning-excel.xlsx",
     fileExtension: "xlsx",
     button: {
@@ -142,7 +141,7 @@ const projectsData = [
     id: 8,
     title: "📊 Maven Market: Interactive Analytics Dashboard",
     description:
-      " <span>Overview:</span> This interactive dashboard provides a comprehensive overview of product-wise performance. On the left, it shows detailed data including transactions, profit, margins, and return rates per product. The top-right displays this month's overall performance — transactions, total profit, and return count. Below that, it compares current performance with monthly targets, highlighting both progress and percentage gaps. " +
+      "<span>Overview:</span> This interactive dashboard provides a comprehensive overview of product-wise performance. On the left, it shows detailed data including transactions, profit, margins, and return rates per product. The top-right displays this month's overall performance — transactions, total profit, and return count. Below that, it compares current performance with monthly targets, highlighting both progress and percentage gaps. " +
       "Users can filter results by country, drilling down further into states and even cities for granular insights. The weekly revenue trend for recent months, along with this month's revenue target, is displayed at the bottom left. Hovering over charts reveals exact values. You can also view product-specific performance by selecting a product within a chosen region. " +
       "For quick access, key performance highlights are listed with clickable links that auto-apply filters, saving time and simplifying navigation.",
     fullDescription:
@@ -180,7 +179,7 @@ const projectsData = [
     id: 9,
     title: "📈 Adventure Works: Interactive Business Intelligence Report",
     description:
-      "<span>Overview:</span> This interactive report presents a complete view of the bike shop's performance. Key metrics such as total revenue, profit, order volume, and return ratio are displayed prominently at the top. It shows month-wise revenue trends and details like monthly order and return counts. Orders are categorized into three segments, while the top 10 products by order volume are highlighted. " +
+      "<span>Overview:</span> This interactive report presents a complete view of the bike shop's performance. Key metrics such as total revenue, profit, order volume, and return ratio are displayed prominently at the top. It shows month-wise revenue trends and details like monthly order and return counts. Orders are categorized into three segments, while the top ten products by order volume are highlighted. " +
       "Users can explore deeper by hovering over product categories for detailed data or clicking on a product to update the entire report to show its specific performance. A drill-through feature provides a dedicated product page with in-depth analytics on orders, revenue, and return rates. " +
       "A country selection tab with a world map visualization allows regional analysis. Additionally, a customer-focused section provides data on unique customers, average revenue per customer, and order distribution by income level and occupation. The top 100 customers by both order count and revenue are also showcased for quick reference.",
     fullDescription:
@@ -218,7 +217,7 @@ const projectsData = [
     id: 10,
     title: "Case Study: Data-Driven Business Insights",
     description:
-      "In this case study, we dive into a data-driven approach to uncover business insights across multiple industries...",
+      "In this case study, we explore a data-driven approach to uncover business insights across multiple industries...",
     videoSrc: project10video,
     fileSrc: "/pdf/DealCart.pptx",
     fileExtension: "pptx",
@@ -234,7 +233,6 @@ class Projects extends Component {
   constructor(props) {
     super(props);
 
-    // Initialize state to track which descriptions are expanded
     this.state = {
       expandedDescriptions: {},
     };
@@ -375,16 +373,16 @@ class Projects extends Component {
                     Your browser does not support the video tag.
                   </video>
                 ) : (
-                  <video
-                    className="project-video"
-                    muted
-                    loop
-                    autoPlay
-                    style={{ cursor: "default" }}
-                  >
-                    <source src={project.videoSrc} type="video/mp4" />
-                    Your browser does not support the video tag.
-                  </video>
+                  <img
+                    src={project.videoSrc}
+                    alt={project.title}
+                    className="project-image"
+                    style={{
+                      width: "100%",
+                      height: "200px",
+                      objectFit: "cover",
+                    }}
+                  />
                 )}
                 <div className="project-info">
                   <h3 style={{ color: theme.text }}>{project.title}</h3>
