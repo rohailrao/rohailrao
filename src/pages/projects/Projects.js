@@ -360,7 +360,7 @@ class Projects extends Component {
                 className="project-card"
                 style={{ backgroundColor: theme.cardColor }}
               >
-                {index >= 6 && index <= 8 ? (
+                {index >= 6 && index <= 9 ? (
                   <video
                     className="project-video"
                     muted
