@@ -9,7 +9,7 @@ I’m a data analyst with hands-on experience delivering **end-to-end analytics 
 ## 🛠️ Tools & Technologies
 
 <p align="left">
-  <img src="https://img.shields.io/badge/SQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="SQL Badge"/>
+  <img src="https://img.shields.io/badge/SQL-316192?style=for-the-badge&logo=mysql&logoColor=white" alt="SQL Badge"/>
   <img src="https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white" alt="Excel Badge"/>
   <img src="https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=power-bi&logoColor=black" alt="Power BI Badge"/>
   <img src="https://img.shields.io/badge/Google%20Sheets-34A853?style=for-the-badge&logo=google-sheets&logoColor=white" alt="Google Sheets Badge"/>
@@ -69,4 +69,5 @@ I'm always excited to collaborate on data problems and insights-driven projects.
 ---
 
 *Thanks for stopping by! 👋*
+
 
