@@ -131,7 +131,7 @@ const experience = {
           title: "Senior Data Analyst",
           company: "PowerTech",
           company_url: "https://www.linkedin.com/company/powertech",
-          logo_path: "powertech_logo.jpeg",
+          logo_path: "pwa.png",
           duration: "March 2025 - Present",
           location: "Karachi, Pakistan (Remote)",
           description:
