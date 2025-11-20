@@ -129,10 +129,9 @@ const experience = {
       experiences: [
         {
           title: "Senior Data Analyst",
-          company: "Simplified Dashboards",
-          company_url:
-            "https://www.linkedin.com/company/simplified-dashboards/?viewAsMember=true",
-          logo_path: "simplified_dashboards_logo.jpeg",
+          company: "PowerTech",
+          company_url: "https://www.linkedin.com/company/powertech",
+          logo_path: "powertech_logo.jpeg",
           duration: "March 2025 - Present",
           location: "Karachi, Pakistan (Remote)",
           description:
