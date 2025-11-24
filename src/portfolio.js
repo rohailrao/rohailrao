@@ -23,7 +23,7 @@ const greeting = {
   subTitle:
     "I am a Data Analyst with 4 years of experience, specializing in SQL, Power BI, and Excel to optimize business performance and drive data-driven decisions.",
   resumeLink:
-    "https://drive.google.com/file/d/1RFKKc9tkhtEg-Qix9NOKXmTi9w2Ba2FQ/view",
+    "https://drive.google.com/file/d/1RFKKc9tkhtEg-Qix9NOKXmTi9w2Ba2FQ/view?usp=sharing",
   githubProfile: "https://github.com/rohailrao",
   bookmeeting: "https://calendly.com/rohailrao2000",
 };
