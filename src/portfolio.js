@@ -133,7 +133,7 @@ const experience = {
           company_url: "https://www.linkedin.com/company/powertech",
           logo_path: "pwa.png",
           duration: "March 2025 - Present",
-          location: "Karachi, Pakistan (Remote)",
+          location: "Remote",
           description:
             "Working remotely as a Data Analyst, I collaborate with cross-functional teams to deliver actionable insights from complex datasets. Leveraging tools like SQL, Power BI, and Excel, I develop interactive dashboards, automate reporting processes, and support data-driven decision-making. My remote setup enables efficient communication, flexibility, and consistent delivery of high-impact analytical solutions.",
           color: "#9b1578",
@@ -144,8 +144,8 @@ const experience = {
           company_url:
             "https://www.linkedin.com/company/coveredinsurance/posts/?feedView=all",
           logo_path: "coverd.jpg",
-          duration: "August 2024 - March 2025",
-          location: "Karachi, Pakistan",
+          duration: "August 2024 - May 2026",
+          location: "Part-Time, Remote",
           description:
             "I analyze departmental KPIs to assess weekly and monthly performance, driving operational improvements. I maintain dashboards to provide real-time insights into team productivity. Additionally, I conduct audits of profiles and calls for new insurance policy customers to ensure compliance with quality standards.",
           color: "#000000",
@@ -156,7 +156,7 @@ const experience = {
           company_url: "https://www.linkedin.com/company/tekrevol/",
           logo_path: "tekrevol.jpg",
           duration: "September 2023 – June 2024",
-          location: "Karachi, Pakistan",
+          location: "Remote",
           description:
             "I utilized data analysis to identify inefficiencies in the software development lifecycle and conducted assessments across departments to pinpoint areas for improvement. By collaborating cross-functionally, I interpreted data insights and proposed strategic solutions to enhance productivity. I implemented data-driven strategies that optimized processes and improved company performance, while generating reports to communicate findings and recommendations to stakeholders and senior management.",
           color: "#0879bf",
