@@ -32,7 +32,7 @@ const socialMediaLinks = [
   {
     name: "Upwork",
     link: "https://www.upwork.com/freelancers/muhammadrohailr",
-    fontAwesomeIcon: "fa-behance", // Added 'fas' for Solid icons
+    fontAwesomeIcon: "custom-upwork", 
     backgroundColor: "#14A800", 
   },
   {
