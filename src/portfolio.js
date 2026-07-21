@@ -32,7 +32,7 @@ const socialMediaLinks = [
   {
     name: "Upwork",
     link: "https://www.upwork.com/freelancers/muhammadrohailr",
-    fontAwesomeIcon: "fa-upwork", // Font Awesome Upwork icon
+    fontAwesomeIcon: "fa-briefcase", // Fallback icon to guarantee it renders and fixes alignment immediately
     backgroundColor: "#14A800", // Upwork official brand color
   },
   {
@@ -60,6 +60,7 @@ const socialMediaLinks = [
     backgroundColor: "#1877F2",
   },
 ];
+
 const skills = {
   data: [
     {
@@ -216,17 +217,6 @@ const contactPageData = {
       "I like to document some of my experiences in my professional career journey as well as share some technical knowledge.",
     avatar_image_path: "blogs_image.svg",
   },
-  // addressSection: {
-  //   title: "Address",
-  //   subtitle: "Saratoga Ave, San Jose, CA, USA 95129",
-  //   locality: "San Jose",
-  //   country: "USA",
-  //   region: "California",
-  //   postalCode: "95129",
-  //   streetAddress: "Saratoga Avenue",
-  //   avatar_image_path: "address_image.svg",
-  //   location_map_link: "https://maps.app.goo.gl/NvYZqa34Wye4tpS17",
-  // },
   phoneSection: {
     title: "",
     subtitle: "",
