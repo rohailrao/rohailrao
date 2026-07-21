@@ -63,14 +63,28 @@ body {
     line-height: normal;
   }
 }
-.custom-upwork::before {
-  content: "";
-  display: inline-block;
-  width: 1.1em;
-  height: 1.1em;
-  vertical-align: middle;
-  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512' fill='%23ffffff'%3E%3Cpath d='M396.6 153.8c-29.4 0-54.8 14.5-70.1 36.5-12.7-27.2-24-57.5-31.5-89.8h-48.4v158c0 31.7-25.7 57.5-57.5 57.5s-57.5-25.7-57.5-57.5V99.8H83.2v100.6c0 58.5 47.6 106 106 106 58.5 0 106-47.6 106-106v-13.6c11.1 27.6 26.6 51.5 45.4 71.4l-25.4 97H366l20.4-78.5c19.4 1.8 38.6-3.8 55.4-15.5 35.7-24.8 47.5-73.8 26.5-109.8-12.6-21.6-35.8-35.2-61.7-37.6zM399 240.2c-15.6 10.3-36.2 12.3-53.5 5l12.4-47.3c2.7-.4 5.4-.5 8.1-.5 25.1 0 45.5 20.4 45.5 45.5 0 11.2-4.1 21.9-12.5 29.3z'/%3E%3C/svg%3E");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
+/* Bulletproof Upwork Logo Fix */
+i.custom-upwork {
+  /* 1. Remove the broken mask that destroyed the circle */
+  -webkit-mask: none !important;
+  mask: none !important;
+  background-color: transparent !important;
+  
+  /* 2. Place the white logo directly inside */
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512' fill='%23ffffff'%3E%3Cpath d='M396.6 153.8c-29.4 0-54.8 14.5-70.1 36.5-12.7-27.2-24-57.5-31.5-89.8h-48.4v158c0 31.7-25.7 57.5-57.5 57.5s-57.5-25.7-57.5-57.5V99.8H83.2v100.6c0 58.5 47.6 106 106 106 58.5 0 106-47.6 106-106v-13.6c11.1 27.6 26.6 51.5 45.4 71.4l-25.4 97H366l20.4-78.5c19.4 1.8 38.6-3.8 55.4-15.5 35.7-24.8 47.5-73.8 26.5-109.8-12.6-21.6-35.8-35.2-61.7-37.6zM399 240.2c-15.6 10.3-36.2 12.3-53.5 5l12.4-47.3c2.7-.4 5.4-.5 8.1-.5 25.1 0 45.5 20.4 45.5 45.5 0 11.2-4.1 21.9-12.5 29.3z'/%3E%3C/svg%3E") !important;
+  background-size: 55% !important; /* Scales the logo down so it fits inside the circle */
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  
+  /* 3. Force the icon to perfectly map to the template's circle */
+  display: inline-block !important;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+/* 4. Kill any hidden FontAwesome content trying to peek through */
+i.custom-upwork::before,
+i.custom-upwork::after {
+  content: none !important;
+  display: none !important;
 }
