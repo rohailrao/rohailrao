@@ -32,31 +32,31 @@ const socialMediaLinks = [
   {
     name: "Upwork",
     link: "https://www.upwork.com/freelancers/muhammadrohailr",
-    fontAwesomeIcon: "fa-briefcase", 
+    fontAwesomeIcon: "fas fa-briefcase", // Added 'fas' for Solid icons
     backgroundColor: "#14A800", 
   },
   {
     name: "LinkedIn",
     link: "https://www.linkedin.com/in/muhammad-rohail-rao-170414215/",
-    fontAwesomeIcon: "fa-linkedin-in", 
+    fontAwesomeIcon: "fab fa-linkedin-in", // Added 'fab' for Brand icons
     backgroundColor: "#0077B5", 
   },
   {
     name: "GitHub",
     link: "https://github.com/rohailrao",
-    fontAwesomeIcon: "fa-github", 
+    fontAwesomeIcon: "fab fa-github", // Added 'fab' for Brand icons
     backgroundColor: "#3d444d", 
   },
   {
     name: "Gmail",
     link: "https://mail.google.com/mail/?view=cm&fs=1&to=rohailrao2000@gmail.com",
-    fontAwesomeIcon: "fa-google",
+    fontAwesomeIcon: "fab fa-google", // Added 'fab' for Brand icons
     backgroundColor: "#D14836",
   },
   {
     name: "Facebook",
     link: "https://www.facebook.com/rohail.rao.589",
-    fontAwesomeIcon: "fa-facebook",
+    fontAwesomeIcon: "fab fa-facebook", // Added 'fab' for Brand icons
     backgroundColor: "#1877F2",
   },
 ];
