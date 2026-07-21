@@ -30,11 +30,11 @@ const greeting = {
 
 const socialMediaLinks = [
   {
-  name: "Upwork",
-  link: "https://www.upwork.com/freelancers/muhammadrohailr",
-  fontAwesomeIcon: "fa-upwork", 
-  backgroundColor: "#14A800", 
-},
+    name: "Upwork",
+    link: "https://www.upwork.com/freelancers/muhammadrohailr",
+    fontAwesomeIcon: "fa-briefcase", // Fallback icon to guarantee it renders and fixes alignment immediately
+    backgroundColor: "#14A800", // Upwork official brand color
+  },
   {
     name: "LinkedIn",
     link: "https://www.linkedin.com/in/muhammad-rohail-rao-170414215/",
