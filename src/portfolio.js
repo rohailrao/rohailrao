@@ -32,7 +32,7 @@ const socialMediaLinks = [
   {
     name: "Upwork",
     link: "https://www.upwork.com/freelancers/muhammadrohailr",
-    fontAwesomeIcon: "fa-briefcase", // Fallback icon to guarantee it renders and fixes alignment immediately
+    fontAwesomeIcon: "fa-upwork", // Fallback icon to guarantee it renders and fixes alignment immediately
     backgroundColor: "#14A800", // Upwork official brand color
   },
   {
